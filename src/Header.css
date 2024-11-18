@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 3%;
+  background-color: rgba(246, 242, 242, 0.5); /* Semi-transparent background */
+  color: #fff; /* Text color for header */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure header is above the background */
+  box-shadow: none; /* Remove shadow if desired */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em; /* Space between navigation items */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em; /* Space around text */
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Light background on hover */
+}
+
+.social-icons {
+  display: flex;
+  gap: 1em; /* Space between icons */
+  margin: 0 auto; /* Center the social icons */
+  margin-left: 24cm; /* Move social icons 5 cm to the right */
+}
+
+.social-icons a {
+  color: black; /* Change icons color to black */
+  font-size: 1.8em; /* Increase icon size */
+  transition: transform 0.3s ease; /* Add smooth hover effect */
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* Scale icon on hover */
+}
+
+.auth-links {
+  display: flex;
+  gap: 1em; /* Space between login and signup */
+  margin-left: auto; /* Push auth links to the right */
+}
+
+.auth-links a {
+  color: #fff; /* Auth link color */
+  text-decoration: none; /* Remove underline */
+  padding: 0.5em 1em; /* Space around text */
+  transition: background-color 0.3s;
+}
+
+.auth-links a:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Light background on hover */
+}

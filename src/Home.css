@@ -1,0 +1,50 @@
+.home {
+  margin: 0;
+  padding: 0;
+  background-image: url('image 1.png'); /* Background image */
+  background-size: cover; /* Ensure the image covers the entire screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  height: 100vh; /* Full height to cover the viewport */
+  display: flex; /* Use flexbox for centering content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Stack images vertically */
+  color: #fff; /* Text color for visibility */
+}
+
+.logo {
+  width: 200px; /* Adjust the size as needed */
+  margin-bottom: -3px; /* Space between the two images */
+}
+
+.image2 {
+  width: 100%; /* Full width of the container, adjust as needed */
+  max-width: 400px; /* Set a maximum width */
+  margin-top: 20px; /* Space above the second image */
+}
+
+.box-container {
+  display: flex;
+  gap: 20px; /* Space between boxes */
+  margin-top: 30px; /* Space above the boxes */
+}
+
+.box {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 40px; /* Increased padding for larger boxes */
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Transition for hover effect */
+  font-size: 1.5em; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  width: 150px; /* Set fixed width for the boxes */
+}
+
+.box:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
+}

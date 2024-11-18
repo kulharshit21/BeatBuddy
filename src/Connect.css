@@ -1,0 +1,68 @@
+.connect-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height */
+  background-image: url('./image 1.png'); /* Path to the image */
+  background-size: cover; /* Make the image cover the area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keep the background fixed during scrolling */
+  filter: brightness(1.2); /* Brighten the background image */
+  color: #fff; /* Text color for visibility */
+  position: relative;
+}
+
+.header-bar {
+  position: absolute;
+  top: 4cm; /* 4 cm gap from the top */
+  width: 100%; /* Full width */
+}
+
+.top-line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.7); /* Thin white bright line */
+  margin-bottom: 2cm; /* Space below the line */
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%; /* Adjust width of nav bar */
+  margin: 0 auto;
+}
+
+.bars {
+  display: flex;
+  gap: 0.5cm; /* Space between bars */
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+}
+
+.search-box input {
+  padding: 0.5cm;
+  font-size: 16px;
+}
+
+.post-option {
+  padding: 0.5cm 1cm;
+  background-color: rgba(255, 255, 255, 0.2); /* Light background */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notification, .message {
+  font-size: 24px; /* Larger size for symbols */
+  margin-right: 1cm; /* Space between the notification and message */
+}
+
+.notification .icon, .message .icon {
+  color: #fff; /* Set symbol color to white */
+}

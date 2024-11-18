@@ -1,0 +1,14 @@
+.jamming-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background-image: url('./image 1.png'); /* Background image */
+    background-size: cover; /* Make the image cover the area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    filter: brightness(1.2); /* Brighten the background image */
+    color: #fff; /* Text color for visibility */
+  }
+  
